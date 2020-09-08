@@ -1,0 +1,46 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "Montserrat", sans-serif;
+	min-height: 100vh;
+	background-image: linear-gradient(125deg,#6a89cc,#b8e994)
+}
+
+.container{
+	width: 100vw;
+	position: absolute;
+	text-align: center;
+	color: #343434;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.container img {
+	width: 30rem;
+}
+
+.container h1{
+	font-size: 2.5rem;
+	background: #e55039aa;
+	margin: 0;
+	font-weight: 900;
+	background: url(not-found.jpg) center no-repeat;
+}
+
+.container a{
+	color: #343434;
+	text-decoration: none;
+	padding: 12px 24px;
+	display: inline-block;
+	border-radius: 25px;
+	font-size: 14px;
+	text-transform: uppercase;
+	transition: 0.4s;	
+}
+
+.container a:hover{
+	background: #29a329;
+	color: #fff;
+}
